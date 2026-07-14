@@ -1,0 +1,32 @@
+[
+  {
+    "id": "http-fetch",
+    "name": "HTTP Fetch",
+    "version": "1.0.0",
+    "author": "V-Agent",
+    "description": "Lets the AI agent fetch any public URL (GET) and read the response — documentation pages, REST APIs, raw files. Works with every provider, including offline-configured ones.",
+    "tags": ["web", "http", "docs"],
+    "repo": "https://github.com/otzpt/vagent-extensions",
+    "entry": "extensions/http-fetch/main.py"
+  },
+  {
+    "id": "todo-scanner",
+    "name": "TODO Scanner",
+    "version": "1.0.0",
+    "author": "V-Agent",
+    "description": "Scans the whole workspace for TODO / FIXME / HACK / XXX comments and gives the AI a structured list with file and line numbers. Ask \"what's left to do in this project?\".",
+    "tags": ["productivity", "code-quality"],
+    "repo": "https://github.com/otzpt/vagent-extensions",
+    "entry": "extensions/todo-scanner/main.py"
+  },
+  {
+    "id": "serial-tools",
+    "name": "Serial Tools",
+    "version": "1.0.0",
+    "author": "V-Agent",
+    "description": "Robotics helper: list serial ports and send/receive a line over serial (Arduino, Pico, ESP32…) straight from the AI chat. Sending requires pyserial (pip install pyserial); port listing works out of the box.",
+    "tags": ["robotics", "arduino", "serial", "hardware"],
+    "repo": "https://github.com/otzpt/vagent-extensions",
+    "entry": "extensions/serial-tools/main.py"
+  }
+]
